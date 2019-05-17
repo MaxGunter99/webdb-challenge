@@ -25,7 +25,7 @@ _______|
         - also Shows included actions attatched to the selected Project ID -
             -> Functions:
                 - UPDATE PROJECT -
-                    `-> Format:  { "projectName": "Name", "projectDescription": "Description" }
+                    `-> Format:  { "projectName": "Name", "projectDescription": "Description", "projectCompleted": true || false }
                 - DELETE PROJECT -
         ____|
 _______|
@@ -44,7 +44,7 @@ _______|
         - List of individual Actions -
             -> Functions:
                 - UPDATE ACTION -
-                    `-> Format: { "actionDescription": "Description", "notes": "note", "projectId": ex: 1 }
+                    `-> Format: { "actionDescription": "Description", "notes": "note", "projectId": ex: 1, "actionCompleted": true || false }
                 - DELETE ACTION - 
         ____|
 _______|
